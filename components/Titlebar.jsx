@@ -4,6 +4,11 @@ import styles from '../styles/Titlebar.module.css';
 const Titlebar = () => {
   return (
     <section className={styles.titlebar}>
+      <div className={styles.windowButtons}>
+        <span className={styles.close}></span>
+        <span className={styles.minimize}></span>
+        <span className={styles.maximize}></span>
+      </div>
       <Image
         src="/vscode_icon.svg"
         alt="VSCode Icon"
@@ -20,12 +25,7 @@ const Titlebar = () => {
         <p>Terminal</p>
         <p>Help</p>
       </div>
-      <p className={styles.title}>Nitin Ranganath - Visual Studio Code</p>
-      <div className={styles.windowButtons}>
-        <span className={styles.minimize}></span>
-        <span className={styles.maximize}></span>
-        <span className={styles.close}></span>
-      </div>
+      <p className={styles.title}>Mauro Habbaby - Visual Studio Code</p>
     </section>
   );
 };

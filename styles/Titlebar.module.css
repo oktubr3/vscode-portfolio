@@ -16,6 +16,7 @@
   display: flex;
   margin-right: auto;
   margin-left: 0.5rem;
+  max-width: fit-content;
 }
 
 .title {
@@ -23,7 +24,7 @@
   text-align: center;
 }
 
-.items > * {
+.items>* {
   padding: 0 0.5rem;
   cursor: pointer;
 }
@@ -32,7 +33,8 @@
   flex: 1;
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-right: 1rem;
+  max-width: fit-content;
 }
 
 .windowButtons * {
@@ -44,22 +46,23 @@
 }
 
 .minimize {
-  background: #f1fa8c;
-  margin-left: auto;
+  background: #f5c55d;
 }
 
 .maximize {
-  background: #50fa7b;
+  background: #42cf30;
 }
 
 .close {
-  background: #ff5555;
+  background: #cc3333;
+  margin-left: 0.2rem;
 }
 
 @media screen and (max-width: 900px) {
   .items p {
     display: none;
   }
+
   .title {
     flex: 4;
   }
