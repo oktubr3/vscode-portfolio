@@ -1,37 +1,79 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "Who is this Pokemon?",
+    "image": "/img/proyect1.png",
+    "description": "A very simple Pokemon Game",
+    "tags": [
+      "vue.js",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "demo": "https://whoisthis-pokemon.netlify.app/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Ahorcado",
+    "image": "/img/proyect2.png",
+    "description": "The classic game of Hangman",
+    "tags": [
+      "vanilla-js",
+      "tailwind"
+    ],
+    "demo": "https://oktubr3.github.io/ahorcado/"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Todo List",
+    "image": "/img/proyect3.png",
+    "description": "A simple Javascript todo list",
+    "tags": [
+      "vanilla-js",
+      "bootstrap5"
+    ],
+    "demo": "https://oktubr3.github.io/simpleTodoList/"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Si o No? (Yes or No?)",
+    "image": "/img/proyect4.png",
+    "description": "A fun app that answers yes or no to the questions we ask, showing a meme for each answer.",
+    "tags": [
+      "vue.js"
+    ],
+    "demo": "https://indecision-si-o-no.netlify.app/"
+  },
+  {
+    "id": 5,
+    "name": "Simple Weather",
+    "image": "/img/proyect5.png",
+    "description": "A simple but efective weather app",
+    "tags": [
+      "vue.js",
+      "quasar"
+    ],
+    "demo": "https://simply-weather-app.netlify.app/#/"
+  },
+  {
+    "id": 6,
+    "name": "Movies & TV Shows",
+    "image": "/img/proyect6.png",
+    "description": "A very simple app to view top 10 movies and TV shows",
+    "tags": [
+      "svelte.js"
+    ],
+    "demo": "https://pelis-populares.herokuapp.com/"
+  },
+  {
+    "id": 7,
+    "name": "Crypto Table",
+    "image": "/img/proyect7.png",
+    "description": "A table with the current prices of the cryptocurrencies",
+    "tags": [
+      "svelte.js",
+      "bootstrap5"
+    ],
+    "demo": "https://svelte-cripto.vercel.app/"
   }
 ]
