@@ -5,7 +5,7 @@
     "image": "/img/proyect1.png",
     "description": "A very simple Pokemon Game",
     "tags": [
-      "vue.js",
+      "vuejs",
       "html",
       "css",
       "javascript"
@@ -18,7 +18,7 @@
     "image": "/img/proyect2.png",
     "description": "The classic game of Hangman",
     "tags": [
-      "vanilla-js",
+      "vanillajs",
       "tailwind"
     ],
     "demo": "https://oktubr3.github.io/ahorcado/"
@@ -29,7 +29,7 @@
     "image": "/img/proyect3.png",
     "description": "A simple Javascript todo list",
     "tags": [
-      "vanilla-js",
+      "vanillajs",
       "bootstrap5"
     ],
     "demo": "https://oktubr3.github.io/simpleTodoList/"
@@ -40,7 +40,7 @@
     "image": "/img/proyect4.png",
     "description": "A fun app that answers yes or no to the questions we ask, showing a meme for each answer.",
     "tags": [
-      "vue.js"
+      "vuejs"
     ],
     "demo": "https://indecision-si-o-no.netlify.app/"
   },
@@ -50,7 +50,7 @@
     "image": "/img/proyect5.png",
     "description": "A simple but efective weather app",
     "tags": [
-      "vue.js",
+      "vuejs",
       "quasar"
     ],
     "demo": "https://simply-weather-app.netlify.app/#/"
@@ -61,7 +61,7 @@
     "image": "/img/proyect6.png",
     "description": "A very simple app to view top 10 movies and TV shows",
     "tags": [
-      "svelte.js"
+      "sveltejs"
     ],
     "demo": "https://pelis-populares.herokuapp.com/"
   },
@@ -71,7 +71,7 @@
     "image": "/img/proyect7.png",
     "description": "A table with the current prices of the cryptocurrencies",
     "tags": [
-      "svelte.js",
+      "sveltejs",
       "bootstrap5"
     ],
     "demo": "https://svelte-cripto.vercel.app/"
@@ -82,7 +82,7 @@
       "image": "/img/proyect8.png",
       "description": "A simple app to manage your notes",
       "tags": [
-        "vue.js",
+        "vuejs",
         "vite",
         "pinia",
         "bulma"
