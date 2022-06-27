@@ -10,26 +10,27 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
+    // console.log(process.env.NEXT_PUBLIC_API_URL);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });
     if (res.ok) {
-      alert('Your response has been received!');
+      alert('Thanks for contacting me!');
       setName('');
       setEmail('');
       setSubject('');
       setMessage('');
     } else {
-      alert('There was an error. Please try again in a while.');
+      alert('There was an error. Please try again in a while o sendme a email to mauroh@gmail.com');
+      // console.log(res);
     }
   };
 
   return (
     <div className={styles.container}>
       <div>
-        <h3 className={styles.heading}>Reach Out Via Socials</h3>
+        <h3 className={styles.heading}>Let's stay in touch</h3>
         <ContactCode />
       </div>
       <div>

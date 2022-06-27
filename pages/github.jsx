@@ -69,12 +69,15 @@ export async function getStaticProps() {
     }
   );
   let repos = await repoRes.json();
+
   if (!repos) {
     repos = [];
   }
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+    .slice(0, 17)
+    // Elimino el elemento con el titulo 'img'
+    .filter((repo) => repo.name !== 'img' && repo.name !== 'oktubr3');
 
   return {
     props: { title: 'GitHub', repos, user },

@@ -6,9 +6,9 @@ import styles from '../styles/Explorer.module.css';
 
 const explorerItems = [
   {
-    name: 'home.jsx',
+    name: 'home.vue',
     path: '/',
-    icon: 'react_icon.svg',
+    icon: 'vue_icon.svg',
   },
   {
     name: 'about.html',

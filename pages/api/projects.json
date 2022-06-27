@@ -75,5 +75,18 @@
       "bootstrap5"
     ],
     "demo": "https://svelte-cripto.vercel.app/"
-  }
+  },
+    {
+      "id": 8,
+      "name": "Notedamus",
+      "image": "/img/proyect8.png",
+      "description": "A simple app to manage your notes",
+      "tags": [
+        "vue.js",
+        "vite",
+        "pinia",
+        "bulma"
+      ],
+      "demo": "https://notedamus.netlify.app/"
+    }
 ]

@@ -3,54 +3,29 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: 'maurohabbaby.tk',
+    href: 'https://maurohabbaby.tk',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'mauroh@gmail.com',
+    href: 'mailto:mauroh@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
-  },
-  {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
-  },
-  {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
-  },
-  {
-    social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
-  },
-  {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
+    link: 'oktubr3',
+    href: 'https://github.com/oktubr3',
   },
   {
     social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    link: '@maurohabbaby',
+    href: 'https://t.me/maurohabbaby',
   },
   {
     social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
-  },
+    link: 'codepen.io/oktubr3',
+    href: 'https://codepen.io/oktubr3',
+  }
 ];
 
 const ContactCode = () => {
