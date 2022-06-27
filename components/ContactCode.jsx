@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'maurohabbaby.tk',
-    href: 'https://maurohabbaby.tk',
+    link: 'maurohabbaby.vercel.app',
+    href: 'https://maurohabbaby.vercel.app/',
   },
   {
     social: 'email',
