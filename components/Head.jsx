@@ -6,19 +6,19 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Mauro Habbaby is a full stack developer building applications you'd love to use"
+        content="Mauro Habbaby is a Full Stack Developer building applications you'd love to use"
       />
       <meta
         name="keywords"
-        content="mauro habbaby, mauro, habbaby, web developer portfolio, mauro web developer, mauro developer, mern stack, mauro habbaby portfolio"
+        content="mauro habbaby, mauro, habbaby, web developer portfolio, mauro web developer, mauro developer, full stack, mauro habbaby portfolio"
       />
       <meta property="og:title" content="Mauro Habbaby's Portfolio" />
       <meta
         property="og:description"
-        content="A full-stack developer building apps that you'd lovo to use."
+        content="A Full Stack developer building apps that you'd love to use."
       />
-      {/* <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      {/* <meta property="og:image" content="https://raw.githubusercontent.com/oktubr3/img/main/maurohabbaby.jpg" />
+      <meta property="og:url" content="https://maurohabbaby.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" /> */}
     </Head>
   );
