@@ -10,7 +10,7 @@ const CustomHead = ({ title }) => {
       />
       <meta
         name="keywords"
-        content="mauro habbaby, mauro, habbaby, web developer portfolio, mauro web developer, mauro developer, full stack, mauro habbaby portfolio"
+        content="mauro habbaby, mauro, habbaby, web developer portfolio, mauro web developer, mauro developer, full stack, portfolio, vue, vuejs, node, nodejs"
       />
       <meta property="og:title" content="Mauro Habbaby's Portfolio" />
       <meta
