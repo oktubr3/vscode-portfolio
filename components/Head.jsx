@@ -27,5 +27,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Mauro Habbaby'
+  title: 'Mauro Habbaby Developer',
 };
