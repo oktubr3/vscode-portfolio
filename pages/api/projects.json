@@ -88,5 +88,50 @@
         "bulma"
       ],
       "demo": "https://notedamus.netlify.app/"
+    },
+    {
+      "id": 9,
+      "name": "Crypto Quote",
+      "image": "/img/proyect9.png",
+      "description": "Another crypto quoter app",
+      "tags": [
+        "vuejs",
+        "vite"
+      ],
+      "demo": "https://cotizador-cripto-vue3.netlify.app/"
+    },
+    {
+      "id": 10,
+      "name": "Expense Planner",
+      "image": "/img/proyect10.png",
+      "description": "A simple app to control your expenses.",
+      "tags": [
+        "vuejs",
+        "vite"
+      ],
+      "demo": "https://gastosapp-vue3.netlify.app/"
+    },
+    {
+      "id": 11,
+      "name": "Patient Manager",
+      "image": "/img/proyect11.png",
+      "description": "An app to manage patients",
+      "tags": [
+        "vuejs",
+        "vite",
+        "tailwind"
+      ],
+      "demo": "https://administrador-veterinaria-vue3.netlify.app/"
+    },
+    {
+      "id": 12,
+      "name": "Guitar LA",
+      "image": "/img/proyect12.png",
+      "description": "A website for selling guitars online",
+      "tags": [
+        "vuejs",
+        "vite"
+      ],
+      "demo": "https://guitarla-vue3.netlify.app/"
     }
 ]
