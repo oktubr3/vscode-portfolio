@@ -133,5 +133,16 @@
         "vite"
       ],
       "demo": "https://guitarla-vue3.netlify.app/"
+    },
+    {
+      "id": 13,
+      "name": "Weather Open Data",
+      "image": "/img/proyect13.png",
+      "description": "A very simple weather app",
+      "tags": [
+        "vuejs",
+        "vite"
+      ],
+      "demo": "https://weather-opendata.netlify.app/"
     }
 ]
