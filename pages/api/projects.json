@@ -63,7 +63,7 @@
     "tags": [
       "sveltejs"
     ],
-    "demo": "https://pelis-populares.herokuapp.com/"
+    "demo": "https://pelis-svelte.netlify.app/"
   },
   {
     "id": 7,
