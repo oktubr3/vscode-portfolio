@@ -144,5 +144,18 @@
         "vite"
       ],
       "demo": "https://weather-opendata.netlify.app/"
+    },
+    {
+      "id": 14,
+      "name": "Drink Finder",
+      "image": "/img/proyect14.png",
+      "description": "A very useful app to find drinks",
+      "tags": [
+        "vuejs",
+        "vite",
+        "tailwind",
+        "pinia"
+      ],
+      "demo": "https://drinkfinder-vue3.netlify.app/"
     }
 ]
