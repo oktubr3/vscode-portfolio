@@ -16,7 +16,10 @@ const ProjectsPage = ({ projects }) => {
 };
 
 export async function getStaticProps() {
-  const projects = getProjects();
+  let projects = getProjects();
+
+  // Reverse the order of the projects
+  projects = projects.reverse();
 
   return {
     props: { title: 'Projects', projects },
