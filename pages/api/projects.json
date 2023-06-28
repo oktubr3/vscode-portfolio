@@ -157,5 +157,17 @@
         "pinia"
       ],
       "demo": "https://drinkfinder-vue3.netlify.app/"
+    },
+    {
+      "id": 15,
+      "name": "HHnos Real State",
+      "image": "/img/proyect15.png",
+      "description": "A real state website",
+      "tags": [
+        "vuejs",
+        "vite",
+        "vuetify"
+      ],
+      "demo": "https://inmobiliariahhnos.netlify.app/"
     }
 ]
