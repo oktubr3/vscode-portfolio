@@ -168,3 +168,11 @@
 .pinia:hover {
   background: rgba(151, 149, 0, 0.25);
 }
+
+.vuetify {
+  border: 0.1rem solid rgb(0, 209, 188);
+}
+
+.vuetify:hover {
+  background: rgba(0, 134, 120, 0.25);
+}
