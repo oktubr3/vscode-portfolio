@@ -166,7 +166,8 @@
       "tags": [
         "vuejs",
         "vite",
-        "vuetify"
+        "vuetify",
+        "pinia"
       ],
       "demo": "https://inmobiliariahhnos.netlify.app/"
     }
