@@ -66,7 +66,7 @@
 }
 
 .next {
-  border: 2px solid rgb(0, 112, 243);
+  border: 0.1rem solid rgb(0, 112, 243);
 }
 
 .next:hover {
@@ -74,7 +74,7 @@
 }
 
 .tailwind {
-  border: 2px solid rgb(6, 182, 212);
+  border: 0.1rem solid rgb(6, 182, 212);
 }
 
 .tailwind:hover {
@@ -82,7 +82,7 @@
 }
 
 .react-query {
-  border: 2px solid rgb(255, 65, 84);
+  border: 0.1rem solid rgb(255, 65, 84);
 }
 
 .react-query:hover {
@@ -90,7 +90,7 @@
 }
 
 .css {
-  border: 2px solid rgb(182, 53, 21);
+  border: 0.1rem solid rgb(182, 53, 21);
 }
 
 .css:hover {
