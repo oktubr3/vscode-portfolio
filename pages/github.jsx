@@ -3,6 +3,8 @@ import GitHubCalendar from 'react-github-calendar';
 import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
+const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'oktubr3';
+
 const GithubPage = ({ repos, user }) => {
   const theme = {
     level0: '#161B22',
@@ -39,7 +41,7 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div className={styles.contributions}>
         <GitHubCalendar
-          username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
+          username={username}
           theme={theme}
           hideColorLegend
           hideMonthLabels
@@ -49,28 +51,31 @@ const GithubPage = ({ repos, user }) => {
   );
 };
 
+// Los datos son públicos: el token sólo sube el límite de consultas. Si falta
+// o venció, GitHub responde 401 y se reintenta sin él.
+async function fetchGitHub(path) {
+  const token = process.env.GITHUB_API_KEY;
+  const url = `https://api.github.com${path}`;
+  let res = await fetch(url, {
+    headers: token ? { Authorization: `token ${token}` } : {},
+  });
+  if (res.status === 401 && token) {
+    res = await fetch(url);
+  }
+  return res.ok ? res.json() : null;
+}
+
 export async function getStaticProps() {
-  const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
-      },
-    }
-  );
-  const user = await userRes.json();
+  const user = (await fetchGitHub(`/users/${username}`)) || {
+    login: username,
+    avatar_url: `https://avatars.githubusercontent.com/${username}`,
+    public_repos: 0,
+    followers: 0,
+  };
 
-  const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
-    {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_API_KEY}`,
-      },
-    }
-  );
-  let repos = await repoRes.json();
+  let repos = await fetchGitHub(`/users/${username}/repos?per_page=100`);
 
-  if (!repos) {
+  if (!Array.isArray(repos)) {
     repos = [];
   }
   repos = repos
